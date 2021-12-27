@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Каталог</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <img src="img/logo.svg" width="111" height="24" alt="Логотип">
+            </a>
+            <ul>
+                <li><a href="info.html">Информация</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="price.html">Прайс-лист</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <button type="button">Войти</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Средства для ухода</h2>
+        <ul class="breadcrumb">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li> 
+            <li class="active">Средства для ухода</li>
+        </ul>
+        <fieldset>
+            <legend>Производители:</legend>
+            <ul>
+                <li>
+                    <input type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" checked>
+                    <label for="filter-baxter-of-california">Baxter of California</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="mr-natty" id="filter-mr-natty">
+                    <label for="filter-mr-natty">Mr Natty</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="suavecito" id="filter-suavecito" checked>
+                    <label for="filter-suavecito">Suavecito</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="malin+goetz" id="filter-malin+goetz">
+                    <label for="filter-malin+goetz">Malin+Goetz</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="murray's" id="filter-murray's">
+                    <label for="filter-murray's">Murray's</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="american-crew" id="filter-american-crew" checked>
+                    <label for="filter-amirican-crew">American Crew</label>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Группы товаров:</legend>
+            <ul>
+                <li>
+                    <input type="radio" name="product-group" value="shaving" id="filter-shave">
+                    <label for="filter-shave">Бритвенные принадлежности</label>
+                </li>
+                <li>
+                    <input type="radio" name="product-group" value="hair-care" id="filter-care" checked>
+                    <label for="filter-care">Средства для ухода</label>
+                </li>
+                <li>
+                    <input type="radio" name="product-group" value="accessories" id="filter-accessories">
+                    <label for="filter-accessories">Аксессуары</label>
+                </li>
+            </ul>
+        </fieldset>
+        <button type="submit">Показать</button>
+    </main>
+</body>
+</html>
