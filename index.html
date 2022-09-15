@@ -148,21 +148,21 @@
             </p>
         </div>
     </footer>
-    <!--Скрытые формы-->
+    <!-- Скрытые формы -->
 <!-- Модальное окно входа -->
-    <section class="modal modal-login">
+    <section class="modal modal-login ">
         <h2>Личный кабинет</h2>
-        <p>Введите свой логин и пароль</p>
+        <p class="modal-description">Введите пожалуйста свой логин и пароль</p>
         <form class="login-form" action="#" method="post">
             <p>
                 <label class="visually-hidden" for="user-login">Логин</label>
-                <input class="login-icon-user" type="text" name="login" id="user-login" placeholder="email@example.com">
+                <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="email@example.com">
             </p>
             <p>
                 <label class="visually-hidden" for="user-password">Пароль</label>
-                <input class="login-icon-password" type="password" name="password" id="user-password" placeholder="********">
+                <input class="login-icon-password" id="user-password" type="password" name="password" placeholder="********">
             </p>
-            <p class="login-password-info">
+            <p class="login-help">
                 <label class="login-checkbox">
                     <input type="checkbox" name="remember" class="visually-hidden">
                     <span class="checkbox-indicator"></span>
@@ -172,8 +172,8 @@
             </p>
             <button class="button" type="submit">Войти</button>
         </form>
-        <button class=" button modal-close" type="button">
-            Закрыть
+        <button class="modal-close" type="button">
+            <span class="visually-hidden">Закрыть</span>
         </button>
     </section>
 <!-- Модальное окно карты  -->
