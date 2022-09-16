@@ -523,6 +523,8 @@ input[type="radio"].visually-hidden{
     top: 120px;
     left: 50%;
 
+    display: none;
+
     width: 300px;
     margin-left: -230px;
     padding: 50px 80px;
@@ -679,4 +681,27 @@ input[type="radio"].visually-hidden{
 .restore:hover,
 .restore:focus {
     text-decoration: none;
+}
+
+.login-form .button {
+    width: 100%;
+    margin-right: 0;
+}
+
+.modal-map {
+    top: 50%;
+    left: 50%;
+
+    display: none;
+
+    width: 766px;
+    height: 561px;
+    margin-top: -280px;
+    margin-left: -390px;
+
+    border: 7px solid white;
+}
+
+.modal-map p {
+    margin: 0;
 }
