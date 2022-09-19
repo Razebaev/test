@@ -118,6 +118,8 @@ input[type="radio"].visually-hidden{
 
 .navigation-wrapper {
     width: 100%;
+    margin: 0;
+    background-color: #000000;
 }
 
 .navigation-wrapper .container {
@@ -427,7 +429,7 @@ input[type="radio"].visually-hidden{
 
     display: flex;
     flex-wrap: wrap;
-    
+    position: relative;;
 }
 
 .breadcrumbs a {
