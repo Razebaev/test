@@ -698,6 +698,8 @@ input[type="radio"].visually-hidden{
 }
 /* Всплывающая форма */
 .modal {
+    display: none;
+
     position: fixed;
     color: #000000;
 
@@ -708,11 +710,13 @@ input[type="radio"].visually-hidden{
     box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
 }
 
+.modal-show {
+    display: block;
+}
+
 .modal-login {
     top: 120px;
     left: 50%;
-
-    display: none;
 
     width: 300px;
     margin-left: -230px;
@@ -881,10 +885,8 @@ input[type="radio"].visually-hidden{
     top: 50%;
     left: 50%;
 
-    display: none;
-
-    width: 766px;
-    height: 561px;
+    width: 780px;
+    height: 560px;
     margin-top: -280px;
     margin-left: -390px;
 
