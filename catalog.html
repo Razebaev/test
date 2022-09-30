@@ -43,37 +43,50 @@
 
         <section class="inner-content">
 
-            <fieldset>
+            <fieldset class="manufacturers">
                 <legend>Производители:</legend>
                 <ul>
                     <li>
-                        <input type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" checked>
-                        <label for="filter-baxter-of-california">Baxter of California</label>
+                        <label class="manufacturers-checkbox" for="filter-baxter-of-california">Baxter of California
+                            <input type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" class="visually-hidden" checked>
+                            <span class="checkbox-indicator"></span>
+                        </label>
                     </li>
                     <li>
-                        <input type="checkbox" name="mr-natty" id="filter-mr-natty">
-                        <label for="filter-mr-natty">Mr Natty</label>
+                        
+                        <label class="manufacturers-checkbox" for="filter-mr-natty">Mr Natty
+                            <input type="checkbox" name="mr-natty" id="filter-mr-natty" class="visually-hidden">
+                            <span class="checkbox-indicator"></span>
+                        </label>
                     </li>
                     <li>
-                        <input type="checkbox" name="suavecito" id="filter-suavecito" checked>
-                        <label for="filter-suavecito">Suavecito</label>
+                        <label class="manufacturers-checkbox" for="filter-suavecito">Suavecito
+                            <input type="checkbox" name="suavecito" id="filter-suavecito" class="visually-hidden" checked>
+                            <span class="checkbox-indicator"></span>
+                        </label>
                     </li>
                     <li>
-                        <input type="checkbox" name="malin+goetz" id="filter-malin+goetz">
-                        <label for="filter-malin+goetz">Malin+Goetz</label>
+                        <label class="manufacturers-checkbox" for="filter-malin+goetz">Malin+Goetz
+                            <input type="checkbox" name="malin+goetz" id="filter-malin+goetz" class="visually-hidden">
+                            <span class="checkbox-indicator"></span>
+                        </label>
                     </li>
                     <li>
-                        <input type="checkbox" name="murray's" id="filter-murray's">
-                        <label for="filter-murray's">Murray's</label>
+                        <label class="manufacturers-checkbox" for="filter-murray's">Murray's
+                            <input type="checkbox" name="murray's" id="filter-murray's" class="visually-hidden">
+                            <span class="checkbox-indicator"></span>
+                        </label>
                     </li>
                     <li>
-                        <input type="checkbox" name="american-crew" id="filter-american-crew" checked>
-                        <label for="filter-amirican-crew">American Crew</label>
+                        <label class="manufacturers-checkbox" for="filter-american-crew">American Crew
+                            <input type="checkbox" name="american-crew" id="filter-american-crew" class="visually-hidden"  checked>
+                            <span class="checkbox-indicator"></span>
+                        </label>
                     </li>
                 </ul>
             </fieldset>
-            <fieldset>
-                <legend>Группы товаров:</legend>
+            <fieldset class="manufacturers">
+                <legend class="groups">Группы товаров:</legend>
                 <ul>
                     <li>
                         <input type="radio" name="product-group" value="shaving" id="filter-shave">
@@ -89,7 +102,7 @@
                     </li>
                 </ul>
             </fieldset>
-            <button type="submit">Показать</button>
+            <button class="button" type="submit">Показать</button>
 
         </section>
     </main>
